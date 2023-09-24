@@ -1,0 +1,50 @@
+footer {
+    background-color: black;
+    height: 209px;
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    z-index: 0;
+}
+
+.logoFooter {
+    display: flex;
+    justify-content: center;
+    margin-top: 56px;
+}
+
+.footerGroup {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.tousDroitsReserves {
+    display: flex;
+    justify-content: center;
+
+    p {
+        color: white;
+        margin-bottom: 29px;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .tousDroitsReserves {
+        font-size: 12px;
+
+        p {
+            width: 134px;
+            text-align: center;
+        }
+    }
+
+    .footerGroup {
+        justify-content: center;
+    }
+
+    footer {
+        bottom: auto;
+    }
+}
