@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+
+
+
+/* Your CSS file, e.g., styles.css */
+.accueil {
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+  padding: 0 0 5px 0; /* Add padding to create space for the border */
+  border-bottom: 2px solid transparent; /* Initially, transparent border */
+  transition: border-color 0.2s; /* Transition the border color */
+
+  /* Add your desired styles for the link (e.g., color, font-size, etc.) here */
+}
+
+/* .accueil:hover, */
+.accueil.active {
+  border-color: red; /* Change the border color to red when active or hovered */
+}
