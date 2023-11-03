@@ -7,7 +7,7 @@ import data from '../Logement.json';
 import Navigation from '../components/Navigation';
 
 const Home = () => {
-    // const nombreLogementAAfficher = 6;
+  
     const logementsAAfficher = data;
 
     return (
